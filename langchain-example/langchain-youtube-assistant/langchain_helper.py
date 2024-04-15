@@ -10,7 +10,7 @@ load_dotenv()
 
 embeddings = OpenAIEmbeddings()
 
-video_url = "https://www.youtube.com/watch?v=-Osca2Zax4Y"
+#video_url = "https://www.youtube.com/watch?v=-Osca2Zax4Y"
 
 def create_vector_db_from_youtube_url(video_url: str) -> faiss:
     loader = YoutubeLoader.from_youtube_url(video_url)
