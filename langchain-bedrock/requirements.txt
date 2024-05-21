@@ -1,0 +1,4 @@
+langchain
+Bedrock 
+boto3
+streamlit
